@@ -1,0 +1,27 @@
+{
+  "name": "graphql_knex_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "easygraphql-format-error": "0.0.3",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.11",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
